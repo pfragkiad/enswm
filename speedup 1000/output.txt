@@ -1,6 +1,0 @@
-Speedup: 1000
-Covid probability: 0.1
-Number of MAC addresses in pool: 1000
-Running simulation...
-Total time: 2592002908, CPU time: 45156177, Utilization:   1.7 %
-Simulation ended.
