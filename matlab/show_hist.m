@@ -8,7 +8,7 @@ h = histogram(data);
 xlabel('ÄTime/(Search Time Interval) [%]')
 xlim([-20 20])
 ylim([0 20000])
-title('Speedup 500')
+title('Speedup 500 (10 sec -> 20 ms )')
 
 subplot(3,2,3)
 data = load('durations_1000.txt');
@@ -18,7 +18,7 @@ h = histogram(data);
 xlabel('ÄTime/(Search Time Interval) [%]')
 xlim([-20 20])
 ylim([0 20000])
-title('Speedup 1000')
+title('Speedup 1000 (10 sec -> 10 ms)')
 
 
 subplot(3,2,5)
@@ -29,7 +29,7 @@ h = histogram(data);
 xlabel('ÄTime/(Search Time Interval) [%]')
 xlim([-20 20])
 ylim([0 30000])
-title('Speedup 10000')
+title('Speedup 10000 (10 sec -> 1 ms)')
 
 subplot(3,2,2)
 data = load('durations_500.txt');
@@ -39,7 +39,7 @@ h = histogram(data);
 xlabel('Time Difference (ms)')
 xlim([-1000 1000])
 ylim([0 20000])
-title('Speedup 500')
+title('Speedup 500 (10 sec -> 20 ms )')
 
 subplot(3,2,4)
 data = load('durations_1000.txt');
@@ -49,7 +49,7 @@ h = histogram(data);
 xlabel('Time Difference (ms)')
 xlim([-1000 1000])
 ylim([0 20000])
-title('Speedup 1000')
+title('Speedup 1000 (10 sec -> 10 ms)')
 
 
 subplot(3,2,6)
@@ -60,4 +60,4 @@ h = histogram(data);
 xlabel('Time Difference (ms)')
 xlim([-1000 1000])
 ylim([0 30000])
-title('Speedup 10000')
+title('Speedup 10000 (10 sec -> 1 ms)')
