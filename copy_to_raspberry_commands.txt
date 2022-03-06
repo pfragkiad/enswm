@@ -1,0 +1,7 @@
+::copy macaddresses data file to raspberry
+pscp c:\tmp\macaddresses.dat root@192.168.0.1:/home/macaddresses.dat
+::copy cross-compiled executable to raspberry
+pscp c:\tmp\covid_trace_arm.out root@192.168.0.1:/home/covid_trace_arm.out
+
+::login (with password: espx2019)
+ssh root@192.168.0.1
